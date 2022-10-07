@@ -24,7 +24,7 @@ const age = 18;
 const userDataName = `имя пользователя: ${name}, возраст ${age}`;
 console.log(userDataName); */
 
-let tourName;
+/*let tourName;
 tourName = "Москва";
 console.log(tourName);
 
@@ -34,4 +34,9 @@ const userDate = {
 };
 console.log(userDate.Name);
 console.log(typeof userDate.age);
-console.log(typeof userDate.Name);
+console.log(typeof userDate.Name);*/
+
+
+
+
+
