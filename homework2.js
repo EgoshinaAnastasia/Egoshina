@@ -2,7 +2,7 @@ console.log("кот" > "код"); //т больше д
 console.log("2" + 2 * "2" ); // сначало идет умножение, а потом добовляем 2 как строку и того 24
 console.log(undefined == null); //потому что не строгое равенство
 console.log(undefined != null); //
-console.log(null == 0); //
+console.log(null == 0); //nul==undefined
 console.log(2 > "3"); //
 console.log(null - false + true); //
 console.log(1 / "l"); // NaN ошибка, мы не можем делить число на строку
@@ -19,3 +19,4 @@ console.log(undefined + null); //
 console.log(1 === "1"); // у нас сторое равенство а мы пытамся сравнить цифру и строку
 console.log("2" > 10); // 
 console.log(NaN == undefined); //
+//только null===nul  undefined===undefined   при не сторогом сравнении null==nul==undefined

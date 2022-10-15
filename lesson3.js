@@ -1,31 +1,30 @@
 // if (1) {console.log("true")};
- 
-// const name = "Alex3";
-// if (name === "Ivan")
-// {console.log(`Привет ${name}`);}
-// else if (name === "Alex")
-// {console.log(`Привет друг ${name}`);}
+
+//const name = "Alex3";
+//if (name === "Ivan")
+//{console.log(`Привет ${name}`);
+//} else if (name === "Alex")
+//{console.log(`Привет друг ${name}`);}
 // else if (name === "Petr") {
 // console.log(`Hi ${name}`);
 // }
 // else {
 //     console.log("Привет незнакомец");}
- 
+
 //   Тернарный оператор
-// if (true) {
-//     if (true) {
-//         console.log("true");
-//     } else {
-//         console.log("false");
-//     }
- 
-// } else {
-//     console.log("false");}
- 
+/*if (true) {
+     if (true) {
+         console.log("true"); 
+     } else {
+        console.log("false");
+     }
+ } else {
+     console.log("false");}*/
+
 // const userName = "Alex45";
 // const result = userName === "Alex" ? "Hello Alex" : "Hello User ";
 // console.log(result);
- 
+
 // const line1 = "100";
 // const line2 = "20";
 // const line3 = "3";
@@ -38,25 +37,14 @@
 // } else {
 //   console.log("line1");
 // }
- 
-// if (line1 > line2 > line3) {
-//   console.log(`line1`);
-// } else if (line2 > line1 > line3) {
-//   console.log(`line2`);
-// } else if (line3 > line1 > line2) {
-//   console.log(`line3`);
-// } else if (line2 > line1) {
-//   console.log("line2");
-// } else {
-//   console.log("line1");
-// }
- 
+
+
 // if (line1 < line2) {
-//   line1 < line2 ? console.log(`line3`) : console.log(`line2`);
+//   line2 < line3 ? console.log(`line3`) : console.log(`line2`);
 // } else {
 //   line1 < line3 ? console.log(`line3`) : console.log(`line1`);
 // }
- 
+
 // const UserRole = "admin";
 // switch (UserRole) {
 //   case "admin":
@@ -65,14 +53,14 @@
 //   case "user":
 //     console.log("Это юзер, и он любит кьолу");
 //     break;
- 
+
 //   case "manager":
 //     console.log("Это менеджер, и он любит кофе");
 //     break;
 //     default:
 //         break;
 // }
- 
+
 // const t = 40;
 // if (t <= -30) {
 //   console.log("Оставайтесь дома");
@@ -89,7 +77,7 @@
 // } else {
 //   console.log("Пекло");
 // }
- 
+
 // let i = 0;
 // while (i < 100) {
 //   console.log(i);
@@ -97,7 +85,7 @@
 //   i +=10;
 // //   i++; только единицу +1 всегда прибавляет
 // }
- 
+
 /*Циклы */
 // let i=0
 // while (true) {
@@ -108,18 +96,18 @@
 //     }
 //     console.log(i);
 // }
- 
+
 // const arr = [1,3,5,6,9,12,14,16,17,18,21,25,65,37];
 // const result=[];
- 
+
 // for (let i=0; i< arr.length;i+=1) {
 //     if(arr [i]%2 === 0) { /*остаток от деления, нецелые числа*/
 //     result.push(arr[i]);
 //     }
 // }
 // console.log(result);
- 
-let a = 1;
+
+/*let a = 1; 
  
 while (true) {
      if (a<10) {
@@ -127,4 +115,5 @@ while (true) {
     }else{
      break;  
      }
-     console.log("Hellow"+a);}
+     console.log("Hellow"+a);}*/
+
