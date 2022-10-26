@@ -25,24 +25,24 @@
 // const result = userName === "Alex" ? "Hello Alex" : "Hello User ";
 // console.log(result);
 
-// const line1 = "100";
-// const line2 = "20";
-// const line3 = "3";
-// if (line1 < line2 && line2 < line3) {
-//   console.log("line3");
-// } else if (line1 < line2 && line2 > line3) {
-//   console.log("line2");
-// } else if (line1 < line3) {
-//   console.log("line3");
-// } else {
-//   console.log("line1");
-// }
+/*const a = 100;
+const b = 20;
+const c = 300;
 
+if (a < b && b < c) {
+   console.log("c самый большой");
+ } else if (a < b && b > c) {
+   console.log("b самый большой");
+ } else if (a < c) {
+   console.log("C самый большой");
+ } else {
+  console.log("A самый большой");
+ }*/
 
-// if (line1 < line2) {
-//   line2 < line3 ? console.log(`line3`) : console.log(`line2`);
+// if (a < b) {
+//   b < c ? console.log(`c`) : console.log(`b`);
 // } else {
-//   line1 < line3 ? console.log(`line3`) : console.log(`line1`);
+//   a < c ? console.log(`c`) : console.log(`a`);
 // }
 
 // const UserRole = "admin";
@@ -61,51 +61,56 @@
 //         break;
 // }
 
-// const t = 40;
-// if (t <= -30) {
-//   console.log("Оставайтесь дома");
-// } else if (t > -30 && t <= -10) {
-//   console.log("Сегодня холодно");
-// } else if (t > -10 && t <= 5) {
-//   console.log("не холодно");
-// } else if (t > 5 && t <= 15) {
-//   console.log("тепло");
-// } else if (t > 15 && t <= 25) {
-//   console.log("очень тепло");
-// } else if (t > 25 && t <= 35) {
-//   console.log("жарко");
-// } else {
-//   console.log("Пекло");
-// }
+/*const t = 35;
+if (t <= -30) {
+  console.log("Оставайтесь дома");
+} else if (t > -30 && t <= -10) {
+  console.log("Сегодня холодно");
+} else if (t > -10 && t <= 5) {
+  console.log("не холодно");
+} else if (t > 5 && t <= 15) {
+  console.log("тепло");
+} else if (t > 15 && t <= 25) {
+  console.log("очень тепло");
+} else if (t > 25 && t <= 35) {
+  console.log("жарко");
+} else {
+  console.log("Пекло");
+}*/
 
-// let i = 0;
-// while (i < 100) {
-//   console.log(i);
-//   i = i + 10;
-//   i +=10;
-// //   i++; только единицу +1 всегда прибавляет
-// }
+/*let i = 0;
+while (i < 100) {
+  console.log(i);
+  i = i + 1;
+}*/
+// i = i + 1 тоже самое, что и i +=10;
+//   i++; только единицу +1 всегда прибавляет
 
-/*Циклы */
-// let i=0
-// while (true) {
-//     if (i<30) {
-//         i+=1;
-//     }else{
-//         break;  /*принудительная остановка цикла */
-//     }
-//     console.log(i);
-// }
+//Циклы
+/*let i=0
+while (true) {
+    if (i<30) {
+        i+=1;
+    }else{
+        break;  //принудительная остановка цикла
+    }
+    console.log(i);
+}*/
 
-// const arr = [1,3,5,6,9,12,14,16,17,18,21,25,65,37];
-// const result=[];
+/*for (let i = 0; i <= 5; i += 1) {
+  if (i === 1 || i === 3) continue;
+  console.log(i);
+}*/
 
-// for (let i=0; i< arr.length;i+=1) {
-//     if(arr [i]%2 === 0) { /*остаток от деления, нецелые числа*/
-//     result.push(arr[i]);
-//     }
-// }
-// console.log(result);
+/*const arr = [1, 3, 5, 6, 9, 12, 14, 16, 17, 18, 21, 25, 65, 37];
+const result = [];
+
+for (let i = 0; i < arr.length; i += 1) {
+  if (arr[i] % 2 === 0) { //остаток от деления, нецелые числа
+    result.push(arr[i]);
+  }
+}
+console.log(result);*/
 
 /*let a = 1; 
  
@@ -115,5 +120,25 @@ while (true) {
     }else{
      break;  
      }
-     console.log("Hellow"+a);}*/
+     console.log("Hellow"+a);
+    }*/
 
+/*let i = 1;
+while (i <= 5) {
+  console.log("hi");
+  i += 1;
+}*/
+
+/*const text = "hi";
+const count = 5;
+for (let i = 0; i < count; i+=1) {
+  console.log(text);
+}*/
+
+/*const text = "hi";
+const count = 5;
+let i = 0;
+while (i < count) {
+  console.log(text);
+  i+=1;
+}*/
